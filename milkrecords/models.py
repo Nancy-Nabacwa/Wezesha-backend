@@ -10,5 +10,6 @@ class MilkRecord (models.Model):
     quantity = models.SmallIntegerField()
     sale = models.SmallIntegerField()
     total = models.SmallIntegerField()
+    # total = models.SmallIntegerField()
     def __str__(self):
         return f"Milk Record for {self.id}"
