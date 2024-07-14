@@ -14,5 +14,6 @@ class Loan(models.Model):
     repayment_amount = models.SmallIntegerField()
     repayment_date = models.DateField()
     repayment_status = models.CharField(max_length=255)
+
     def __str__(self):
         return f"Loan {self.id}"
